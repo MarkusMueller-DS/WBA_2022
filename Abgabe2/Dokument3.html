@@ -6,11 +6,27 @@
     <title>HTML 5</title>
   </head>
   <body>
-      <img src="daffodil.png"></img>
-
-      <object data="daffodil.png"></object>
+  
+  
+      <img src="daffodil.png" width="40" height="50" alt ="gelbeBlume" />
+	
+	
+      <object data="daffodil.png" width="40" height="50" ></object>
     
-      <a href="mailto:markusmueller1@student.hs-rm.de">Markus Müller</a>
-
+      <img src="daffodil.png" usemap="#map" alt="gelbeBlume"/>
+	
+	<map name="map">
+	 <area shape="circle"
+	  coords="350,220,250" alt="Blüte"
+	  href="abc.html"/>
+	 <area shape="rect"
+	   coords="50,200,350,1000"
+	   alt="blatt"
+	   href="bc.html"/>
+	</map>
+    
+      
+      <a href="mailto:markusmueller1@student.hs-rm.de?subject=Betreff">Mail</a>
+    
   </body>
 </html>

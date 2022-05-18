@@ -1,0 +1,48 @@
+#main{
+    position: fixed;
+    
+}
+
+#castle{
+    position:fixed;  
+}
+#building{
+    position: absolute;
+    top: 70px;
+    left:75px;
+}
+#tower{
+    position: absolute;
+    top: 57px;
+    left: 44px;
+    z-index: 1;
+
+}
+
+
+
+#first{
+    position: relative;
+    top: 19px;
+    z-index: 2;
+}
+
+#roof{
+    position: absolute;
+    left: 43px;
+    bottom: 20px;
+}
+#flag{
+    position: relative;
+    left: 114px;
+    top: 22px;
+
+}
+#second{
+    position: static;
+}
+#window{
+    position: relative;
+    left: 54px;
+    top: 10px;
+}
